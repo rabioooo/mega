@@ -1,0 +1,202 @@
+* {
+    list-style: none;
+}
+
+.container {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.photo {
+    width: 100px;
+    position: absolute;
+    left: 30px;
+}
+.data{
+    text-align: center;
+    font-weight: bold;
+}
+
+.B {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item {
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+    display: flex;
+    width: 380px;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 10px rgb(230, 230, 230);
+    justify-content: flex-end;
+    position: relative;
+}
+
+.info {
+
+    margin-right: 20px;
+}
+
+.item:hover {
+    box-shadow: 1px 1px 50px rgb(171, 171, 171);
+}
+
+
+.inputs {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+
+.input {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.inpo {
+    margin: 10px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.inpo:hover {
+    box-shadow: 1px 1px 20px rgb(215, 215, 215);
+}
+
+.btn-dark {
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+}
+
+.btn-danger {
+    height: 40px;
+    margin: auto;
+}
+
+.btn-success {
+    height: 40px;
+    margin: auto 5px auto 5px;
+}
+
+.btn-primary {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight: bolder;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: -200px;
+}
+
+
+
+.popup {
+    box-shadow: 1px 1px 50px rgb(167, 167, 167);
+    background-color: rgb(237, 237, 237);
+    width: 100% !important;
+    height: 100%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.inputs_pop {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.input_pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container_pop {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_pop.inpo {
+    margin: 50px !important;
+}
+
+@media only screen and (max-width: 1500px) {
+    .B {
+        width: 1200px;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+    .inputs {
+        width: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    .B {
+        width: auto;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+
+    .inpo {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .B {
+        width: auto;
+    }
+
+    .container {
+        width: 700px;
+    }
+
+    .inputs {
+        width: auto;
+    }
+
+    .input {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .inpo {
+        margin: 10px;
+    }
+}
